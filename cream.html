@@ -3,14 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Product</title>
+
+    <title>Cream</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background: #fff;
+        }
+
+        .detail-page {
+            width: 720px;
+            margin: 0 auto;
+            padding: 0;
+            line-height: 0;
+            font-size: 0;
+        }
+
+        .detail-page img {
+            display: block;
+            width: 720px;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        /* 모바일에서는 화면 폭에 맞춤 */
+        @media (max-width: 720px) {
+            .detail-page {
+                width: 100%;
+            }
+
+            .detail-page img {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>My Product</h1>
+    <main class="detail-page">
 
-    <p>제품 상세페이지입니다.</p>
+        <img src="images/cream_1.jpg" alt="Cream">
+        <img src="images/cream_2.gif" alt="Cream">
+        <img src="images/cream_3.jpg" alt="Cream">
+        <img src="images/cream_4.gif" alt="Cream">
+        <img src="images/cream_5.jpg" alt="Cream">
+        <img src="images/cream_6.jpg" alt="Cream">
+
+    </main>
 
 </body>
 </html>
